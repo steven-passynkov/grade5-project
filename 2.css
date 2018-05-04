@@ -1,0 +1,86 @@
+body{
+    margin: 0;     
+}
+
+.c-w {
+    background-color: white;
+    height: 100vh;
+    width: 80%;
+    float: left;
+}
+
+.c-m {
+    background-color:orange; 
+    height: 100vh;
+    width: 20%;
+    float: right;
+}
+
+.fraction {
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 0 0.2em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fraction:before {
+    border-bottom: 1px solid #000;
+    content: attr(top);
+    display: block;
+    line-height: 1.6em;
+    padding: 0 0.2em;
+}
+
+.fraction:after {
+    content: attr(bottom);
+    display: block;
+    line-height: 1.6em;
+    padding: 0 0.2em;
+}
+
+.fraction1 {
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 0 0.2em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fraction1:before {
+    border-bottom: 1px solid #000;
+    content: attr(top);
+    display: block;
+    line-height: 1.6em;
+    padding: 0 0.2em;
+}
+
+.fraction1:after {
+    content: attr(bottom);
+    display: block;
+    line-height: 1.6em;
+    padding: 0 0.2em;
+}
+
+.fraction2 {
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 0 0.2em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fraction2:before {
+    border-bottom: 1px solid #000;
+    content: attr(top);
+    display: block;
+    line-height: 1.6em;
+    padding: 0 0.2em;
+}
+
+.fraction2:after {
+    content: attr(bottom);
+    display: block;
+    line-height: 1.6em;
+    padding: 0 0.2em;
+}
